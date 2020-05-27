@@ -1,0 +1,51 @@
+// Файл main.css не трогать и не как его редактировать, если нужно добавить стили именно в css, строго пишите в style.css
+
+.modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    z-index: 999;
+    display: none;
+
+    button {
+        position: absolute;
+        top: -40px;
+        right: -40px;
+        font-size: 24px;
+        background: none;
+        border: 0px;
+        cursor: pointer;
+        
+        i {
+            color: #fff;
+        }
+    }
+
+    .box {
+        width: 60%;
+        background: #fff;
+        border-radius: 16px;
+        padding: 40px;
+        position: relative;
+        margin: 10% auto 0;
+
+        h2 {
+            text-align: center;
+            font-weight: 700;
+            text-decoration: none;
+            color: #000000;
+            font-size: 24px;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
